@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:wght@700&family=Lavishly+Yours&family=Lobster&family=Lora&family=PT+Serif:wght@700&family=Pacifico&family=Poppins:wght@600&family=Righteous&family=Roboto+Slab:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&family=Shanti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:wght@700&family=Lavishly+Yours&family=Lobster&family=Lora&family=PT+Serif:wght@700&family=Pacifico&family=Poppins:wght@600&family=Readex+Pro:wght@200;300;400;500;600;700&family=Righteous&family=Roboto+Slab:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shanti&display=swap');
+
+.second-sub-nav{
+    max-width: 1248px;
+}
+
+.second-nav-container{
+    min-width: 1500px;
+    height: 41px;
+    border-bottom: 1px solid #D1D3D5;
+}
+
+
+.first-div,
+.second-div,
+.third-div,
+.fourth-div,
+.fifth-div,
+.sixth-div,
+.seventh-div{
+    position: relative;
+}
+
+
+.sub-nav-div{
+    position: absolute;
+    top: 40px;
+    width: 1250px;
+    display: none;
+}
+
+
+.special-1{
+    top: 40px;
+    left: -132px;
+}
+
+
+.special-2{
+    top: 40px;
+    left: -306px;
+}
+
+
+.special-3{
+    top: 40px;
+    left: -399px;
+}
+
+
+.special-4{
+    top: 40px;
+    left: -513px;
+}
+
+
+.special-5{
+    top: 40px;
+    left: -653px;
+}
+
+
+.special-6{
+    top: 40px;
+    left: -832px;
+}
+
+
+
+.div-1:hover .nav-p{
+    color: #1e70f3;
+}
+
+
+.div-1:hover .sub-nav-div{
+    display:flex;
+}
+
+.second-nav-text-icon{
+    transition: 0.1s;
+}
+
+
+ .nav-p{
+    font-weight: 600;
+    color: #3c3c3c;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.div-1:hover .second-nav-text-icon{
+    transform: rotate(-180deg);
+    color: #1e70f3;
+}
+
+
+.sub-p{
+    color: #7d7d7d;
+    font-family: 'Roboto', sans-serif;
+}
+
+

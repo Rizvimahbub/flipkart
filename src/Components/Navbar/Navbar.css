@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lavishly+Yours&family=Lobster&family=Lora&family=PT+Serif:wght@700&family=Pacifico&family=Poppins:wght@600&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&family=Shanti&family=Ubuntu:wght@500&display=swap');
+
+
+.heading{
+    font-family: 'Shanti', sans-serif;
+    font-size: 130%;
+}
+
+.logo{
+    min-width: 80px;
+    cursor: pointer;
+}
+
+
+.explore:hover{
+    text-decoration: underline;
+}
+
+
+.cart-box{
+    min-width: 300px;
+}
+
+
+.navbar{
+    min-width: 1500px;
+}
+
+
+.nav-second{
+    min-width: 700px;
+}
+
+
+.nav-input{
+    width: 535px;
+    min-width: 150px;
+}
+
+.login-div{
+    display: none;
+}
+
+
+.more{
+    cursor: pointer;
+}
+
+
+.login:hover .login-div{
+    display: block; 
+}
+
+
+.sub-more{
+    display: none; 
+    transition: .2s;
+}
+
+.more:hover .sub-more{
+    display: block; 
+}
+
+#arrow-down{
+    transition: 0.1s;
+}
+
+.more:hover #arrow-down{
+    transform: rotate(-180deg); 
+}
+
+
+.sub-li:hover{
+    background-color: #F9F9FA;
+}
+/* @media (min-width:980px) and (max-width:1482px){
+    .logo{
+        width:80px;
+    }
+} */
