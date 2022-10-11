@@ -9,7 +9,7 @@ const SecondNav = () => {
         <div className='second-nav-container pr-12 shadow-black z-0'>
             <div className=' cursor-pointer second-sub-nav flex items-center w-5/6 mx-auto h-[40px]'>
                 <div className='div-1 grow first-div'>
-                    <p className='text-sm nav-p'>Electronics <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
+                    <p className='text-sm nav-p font-semibold'>Electronics <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
                     <div className='shadow shadow-gray-400 rounded-sm sub-nav-div flex'>
                         <div className=' grow bg-white rounded-l-sm'>
                             <p className='flex font-medium items-center text-sm px-5 py-2'>Mobiles <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
@@ -108,7 +108,7 @@ const SecondNav = () => {
                     </div>
                 </div>
                 <div className=' div-1 grow second-div'>
-                    <p className='text-sm nav-p'>TVs & Appliances <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
+                    <p className='text-sm nav-p font-semibold'>TVs & Appliances <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
                     <div className='shadow shadow-gray-400 rounded-sm sub-nav-div special-1 flex'>
                         <div className=' grow bg-white rounded-l-sm'>
                             <p className='flex font-medium items-center text-sm px-5 py-2'>Television <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
@@ -213,7 +213,7 @@ const SecondNav = () => {
                     </div>
                 </div>
                 <div className=' div-1 grow third-div'>
-                    <p className='text-sm nav-p'>Men <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
+                    <p className='text-sm nav-p font-semibold'>Men <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
                     <div className='special-2 shadow shadow-gray-400 rounded-sm sub-nav-div flex'>
                         <div className=' grow bg-white rounded-l-sm'>
                             <p className='flex font-medium items-center text-sm px-5 py-2'>Footwear <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
@@ -311,7 +311,7 @@ const SecondNav = () => {
                     </div>
                 </div>
                 <div className=' div-1 grow fourth-div'>
-                    <p className='text-sm nav-p'>Women <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
+                    <p className='text-sm nav-p font-semibold'>Women <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
                     <div className='special-3 shadow shadow-gray-400 rounded-sm sub-nav-div flex'>
                         <div className=' grow bg-white rounded-l-sm'>
                             <p className='flex font-medium items-center text-sm px-5 py-2'>Clothing <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
@@ -422,7 +422,7 @@ const SecondNav = () => {
                     </div>
                 </div>
                 <div className=' div-1 grow fifth-div'>
-                    <p className='text-sm nav-p'>Baby & Kids <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
+                    <p className='text-sm nav-p font-semibold'>Baby & Kids <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
                     <div className='special-4 shadow shadow-gray-400 rounded-sm sub-nav-div flex'>
                         <div className=' grow bg-white rounded-l-sm'>
                             <p className='flex font-medium items-center text-sm px-5 py-2'>Mobiles <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
@@ -521,7 +521,7 @@ const SecondNav = () => {
                     </div>
                 </div>
                 <div className=' div-1 grow sixth-div'>
-                    <p className='text-sm nav-p'>Home & Furniture <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
+                    <p className='text-sm nav-p font-semibold'>Home & Furniture <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
                     <div className='special-5 shadow shadow-gray-400 rounded-sm sub-nav-div flex'>
                         <div className=' grow bg-white rounded-l-sm'>
                             <p className='flex font-medium items-center text-sm px-5 py-2'>Mobiles <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
@@ -620,8 +620,8 @@ const SecondNav = () => {
                     </div>
                 </div>
                 <div className=' div-1 grow seventh-div'>
-                    <p className='text-sm nav-p'>Sports, Books & More <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
-                    <div className='special-6 shadow shadow-gray-400 rounded-sm sub-nav-div flex'>
+                    <p className='text-sm nav-p font-semibold'>Sports, Books & More <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
+                    <div className='special-6 shadow shadow-gray-400 rounded-sm sub-nav-div flex z-10'>
                         <div className=' grow bg-white rounded-l-sm'>
                             <p className='flex font-medium items-center text-sm px-5 py-2'>Mobiles <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
                             <p className='sub-p px-5 py-1.5  text-xs font-medium'>Mi</p>
@@ -719,10 +719,10 @@ const SecondNav = () => {
                     </div>
                 </div>
                 <div className=' div-1 grow'>
-                    <p className='text-sm nav-p'>Flights</p>
+                    <p className='text-sm nav-p font-semibold'>Flights</p>
                 </div>
                 <div className=' div-1 grow'>
-                    <p className='text-sm nav-p'>Offer Zone</p>
+                    <p className='text-sm nav-p font-semibold'>Offer Zone</p>
                 </div>
             </div>
         </div>

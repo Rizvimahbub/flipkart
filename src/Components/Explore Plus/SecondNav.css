@@ -83,13 +83,11 @@
 
 
  .nav-p{
-    font-weight: 600;
-    color: #3c3c3c;
+    color: #1f1f1f;
     height: 41px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 600;
 }
 
 .div-1:hover .second-nav-text-icon{

@@ -8,7 +8,7 @@ import Rewards from './Navbar Images/Rewards-removebg-preview.png';
 import Message from './Navbar Images/Message-question.png';
 import Download from './Navbar Images/Download.png';
 
-const Navbar = () => {
+const Navbar = ({hover, setHover}) => {
     return (
         <div className="navbar bg-[#2874F0] z-10">
             <div className='flex justify-around mx-auto nav-second'>
@@ -24,7 +24,7 @@ const Navbar = () => {
                         <FontAwesomeIcon className='text-[#2874F0] font-extrabold' icon={faMagnifyingGlass} />
                     </button>
                 </div>
-                <div className='relative flex items-center login'>
+                <div className='relative flex items-center login z-10'>
                     <button className=' bg-white text-[#2874F0] font-semibold py-1 px-10'>Login</button>
                     <div className='absolute top-[24px] left-[-70px] login-div'>
                         <ul className=' w-64 shadow-2xl rounded-b-md'>
@@ -41,7 +41,7 @@ const Navbar = () => {
                 </div>
                 <div className='cart-box flex items-center justify-between ml-10'>
                     <p className='text-white font-semibold cursor-pointer'>Become a Seller</p>
-                    <div className='relative more'>
+                    <div className='relative more z-10'>
                         <p className='text-white font-semibold mr-1'>More <FontAwesomeIcon className='text-white w-[9px]' id='arrow-down' icon={faChevronDown} /></p>
                         <div className='absolute top-[20px] left-[-96px] sub-more'>
                             <ul className=' w-[232px] shadow-2xl rounded-b-md'>
