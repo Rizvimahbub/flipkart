@@ -425,24 +425,26 @@ const SecondNav = () => {
                     <p className='text-sm nav-p font-semibold'>Baby & Kids <FontAwesomeIcon className='second-nav-text-icon text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
                     <div className='special-4 shadow shadow-gray-400 rounded-sm sub-nav-div flex'>
                         <div className=' grow bg-white rounded-l-sm'>
+                            <p className='flex font-medium items-center text-sm px-5 py-2'>Kids Clothing <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
+                            <p className='flex font-medium items-center text-sm px-5 py-2'>Boys' Clothing <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>T-Shirts</p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Ethnic Wear</p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Shorts</p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Shirts</p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Innerwear</p>
+                            <p className='flex font-medium items-center text-sm px-5 py-2'>Girls' Clothing <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Dresses & Skirts</p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Ethnic Wear</p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>T-shirts & Tops</p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Innerwear</p>
+                            <p className='flex font-medium items-center text-sm px-5 py-2'>Baby Boys' Clothing <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Combos Sets</p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>T-Shirts</p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Innerwear</p>
                             <p className='flex font-medium items-center text-sm px-5 py-2'>Mobiles <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Mi</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Realme</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Samsung</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Infinix</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>OPPO</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Apple</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Vivo</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Honor</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Asus</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Poco X2</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Realme Narzo 10</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Infinix Hot 9</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>IQOO 3</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>iPhone SE</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Motorola razr</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Realme Narzo 10A</p>
-                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Motorola g8 power lite</p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Combos Sets</p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Dresses & Gowns</p>
+                            <p className='sub-p px-5 py-1.5  text-xs font-medium'>Innerwear</p>
                         </div>
                         <div className=' grow bg-[#F9F9F9]'>
                             <p className='flex font-medium items-center text-sm px-5 py-2'>Mobile Accessories <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
