@@ -8,7 +8,7 @@ const SecondNav = () => {
     return (
         <div className='second-nav-container pr-12 shadow-black h-[41px] min-w-[1500px] border-b border-[#D1D3D5]'>
             <div className=' cursor-pointer second-sub-nav max-w-[1248px] flex items-center w-5/6 mx-auto h-[40px]'>
-                <div className='div-1 grow first-div relative'>
+                <div className='div-1 grow relative'>
                     <p className='text-sm nav-p text-[#1f1f1f] h-[41px] flex items-center justify-center font-semibold'>Electronics <FontAwesomeIcon className='second-nav-text-icon duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
                     <div className='absolute top-[40px] w-[1250px] hidden shadow shadow-gray-400 rounded-sm sub-nav-div flex'>
                         <div className='bg-white rounded-l-sm grow w-full'>
@@ -107,9 +107,9 @@ const SecondNav = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' div-1 grow second-div relative'>
+                <div className=' div-1 grow relative'>
                     <p className='text-sm nav-p text-[#1f1f1f] h-[41px] flex items-center justify-center font-semibold'>TVs & Appliances <FontAwesomeIcon className='second-nav-text-icon duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
-                    <div className='absolute top-[40px] w-[1250px] hidden shadow shadow-gray-400 rounded-sm sub-nav-div special-1 top-[40px] left-[-132px] flex'>
+                    <div className='absolute top-[40px] w-[1250px] hidden shadow shadow-gray-400 rounded-sm sub-nav-div top-[40px] left-[-132px] flex'>
                         <div className=' grow bg-white rounded-l-sm grow w-full'>
                             <p className='flex font-medium items-center text-[13px] px-5 py-2'>Television <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
                             <p className='flex font-medium items-center text-[13px] px-5 py-2'>New Launches <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
@@ -212,9 +212,9 @@ const SecondNav = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' div-1 grow third-div relative'>
+                <div className=' div-1 grow relative'>
                     <p className='text-sm nav-p text-[#1f1f1f] h-[41px] flex items-center justify-center font-semibold'>Men <FontAwesomeIcon className='second-nav-text-icon duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
-                    <div className='absolute top-[40px] w-[1250px] hidden special-2 shadow shadow-gray-400 rounded-sm sub-nav-div flex top-[40px] left-[-306px]'>
+                    <div className='absolute top-[40px] w-[1250px] hidden shadow shadow-gray-400 rounded-sm sub-nav-div flex top-[40px] left-[-306px]'>
                         <div className=' grow w-full bg-white rounded-l-sm'>
                             <p className='flex font-medium items-center text-[13px] px-5 py-2'>Footwear <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
                             <p className='sub-p text-[#7d7d7d] px-5 py-1.5  text-xs font-medium'>Sports Shoes</p>
@@ -310,9 +310,9 @@ const SecondNav = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' div-1 grow fourth-div relative'>
+                <div className=' div-1 grow relative'>
                     <p className='text-sm nav-p text-[#1f1f1f] h-[41px] flex items-center justify-center font-semibold'>Women <FontAwesomeIcon className='second-nav-text-icon duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
-                    <div className='absolute top-[40px] w-[1250px] hidden special-3  shadow shadow-gray-400 rounded-sm sub-nav-div flex top-[40px] left-[-399px]'>
+                    <div className='absolute top-[40px] w-[1250px] hidden  shadow shadow-gray-400 rounded-sm sub-nav-div flex top-[40px] left-[-399px]'>
                         <div className=' grow w-full bg-white rounded-l-sm'>
                             <p className='flex font-medium items-center text-[13px] px-5 py-2'>Clothing <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
                             <p className='flex font-medium items-center text-[13px] px-5 py-2'>Women Western & Maternity Wear</p>
@@ -421,9 +421,9 @@ const SecondNav = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' div-1 grow fifth-div relative'>
-                    <p className='text-sm nav-p text-[#1f1f1f] h-[41px] flex items-center justify-center font-semibold'>Baby & Kids <FontAwesomeIcon className='second-nav-text-icon duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
-                    <div className='absolute top-[40px] w-[1250px] hidden special-4 shadow shadow-gray-400 rounded-sm sub-nav-div flex top-[40px] left-[-513px]'>
+                <div className=' div-1 grow relative'>
+                    <p className='flex items-center justify-center text-sm nav-p text-[#1f1f1f] h-[41px] font-semibold'>Baby & Kids <FontAwesomeIcon className='second-nav-text-icon duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
+                    <div className='absolute top-[40px] w-[1250px] hidden shadow shadow-gray-400 rounded-sm sub-nav-div flex top-[40px] left-[-513px]'>
                         <div className=' grow w-full bg-white rounded-l-sm'>
                             <p className='flex font-medium items-center text-[13px] px-5 py-2'>Kids Clothing <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
                             <p className='flex font-medium items-center text-[13px] px-5 py-2'>Boys' Clothing <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
@@ -528,9 +528,9 @@ const SecondNav = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' div-1 grow sixth-div relative'>
-                    <p className='text-sm nav-p text-[#1f1f1f] h-[41px] flex items-center justify-center font-semibold'>Home & Furniture <FontAwesomeIcon className='second-nav-text-icon duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
-                    <div className='absolute top-[40px] w-[1250px] hidden special-5 shadow shadow-gray-400 rounded-sm sub-nav-div flex top-[40px] left-[-653px]'>
+                <div className=' div-1 grow relative'>
+                    <p className='flex items-center justify-center text-sm nav-p text-[#1f1f1f] h-[41px] font-semibold'>Home & Furniture <FontAwesomeIcon className='second-nav-text-icon duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
+                    <div className='absolute top-[40px] w-[1250px] hidden shadow shadow-gray-400 rounded-sm sub-nav-div flex top-[40px] left-[-653px]'>
                         <div className=' grow w-full bg-white rounded-l-sm'>
                             <p className='flex font-medium items-center text-[13px] px-5 py-2'>Kitchen, Cookware & Serveware <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
                             <p className='sub-p text-[#7d7d7d] px-5 py-1.5  text-xs font-medium'>Pans</p>
@@ -624,9 +624,9 @@ const SecondNav = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' div-1 grow seventh-div relative'>
-                    <p className='text-sm nav-p text-[#1f1f1f] h-[41px] flex items-center justify-center font-semibold'>Sports, Books & More <FontAwesomeIcon className='second-nav-text-icon duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
-                    <div className='absolute top-[40px] w-[1250px] hidden special-6 shadow shadow-gray-400 rounded-sm sub-nav-div flex top-[40px] left-[-832px] z-10'>
+                <div className=' div-1 grow relative'>
+                    <p className='flex items-center justify-center text-sm nav-p text-[#1f1f1f] h-[41px] font-semibold'>Sports, Books & More <FontAwesomeIcon className='second-nav-text-icon duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
+                    <div className='flex absolute top-[40px] left-[-832px] w-[1250px] hidden shadow shadow-gray-400 rounded-sm z-10 sub-nav-div'>
                         <div className='grow w-full bg-white rounded-l-sm'>
                             <p className='flex font-medium items-center text-[13px] px-5 py-2'>Sports <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
                             <p className='sub-p text-[#7d7d7d] px-5 py-1.5  text-xs font-medium'>Cricket</p>
