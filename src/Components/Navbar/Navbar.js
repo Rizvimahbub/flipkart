@@ -43,7 +43,7 @@ const Navbar = () => {
                     <p className='text-white font-semibold cursor-pointer'>Become a Seller</p>
                     <div className='relative cursor-pointer z-10'>
                         <p className='text-white font-semibold mr-1'>More <FontAwesomeIcon className='text-white w-[9px]' id='arrow-down' icon={faChevronDown} /></p>
-                        <div className='absolute top-[20px] left-[-96px] sub-more'>
+                        <div className='absolute top-[20px] left-[-96px] hidden duration-200'>
                             <ul className=' w-[232px] shadow-2xl rounded-b-md'>
                                 <li className='border-b text-center'><FontAwesomeIcon className='text-white font-extrabold text-4xl mb-[-20px]' icon={faCaretUp} /></li>
                                 <li className='sub-li bg-white  py-4 px-3 border-b flex items-center'><FontAwesomeIcon className='text-[#2874F0] font-extrabold text-sm' icon={faBell} /> <span className='ml-3 text-sm'>Notification Preferences</span></li>
