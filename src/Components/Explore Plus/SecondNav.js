@@ -9,7 +9,7 @@ const SecondNav = () => {
         <div className=' pr-12 shadow-black h-[41px] min-w-[1500px] border-b border-[#D1D3D5]'>
             <div className=' cursor-pointer max-w-[1248px] flex items-center w-5/6 mx-auto h-[40px]'>
                 <div className='grow relative group'>
-                    <p className='text-sm nav-p group-hover:text-[#1e70f3] text-[#212121] h-[41px] flex items-center justify-center font-semibold'>Electronics <FontAwesomeIcon className='second-nav-text-icon group-hover:text-[#1e70f3] group-hover:rotate-[-180deg] duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
+                    <p className='text-sm group-hover:text-[#1e70f3] text-[#212121] h-[41px] flex items-center justify-center font-semibold'>Electronics <FontAwesomeIcon className='second-nav-text-icon group-hover:text-[#1e70f3] group-hover:rotate-[-180deg] duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
                     <div className='absolute top-[40px] w-[1250px] hidden group-hover:flex shadow shadow-gray-400 rounded-sm sub-nav-div flex'>
                         <div className='bg-white rounded-l-sm grow w-full'>
                             <p className='flex font-medium items-center text-[13px] px-5 py-2'>Mobiles <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
