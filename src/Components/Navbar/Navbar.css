@@ -6,11 +6,6 @@
     font-size: 130%;
 }
 
-.logo{
-    min-width: 80px;
-    cursor: pointer;
-}
-
 
 .explore:hover{
     text-decoration: underline;
