@@ -3,6 +3,7 @@ import { useState } from "react";
 import Navbar from '../Navbar/Navbar';
 import ExploreCoin from './ExploreCoin';
 import SecondNav from './SecondNav';
+import Text from './Text';
 
 const Explore = () => {
     const [hover, setHover] = useState(0);
@@ -11,6 +12,7 @@ const Explore = () => {
             <Navbar hover={hover} setHover={setHover}></Navbar>
             <SecondNav hover={hover}></SecondNav>
             <ExploreCoin></ExploreCoin>
+            <Text></Text>
         </div>
     );
 };
