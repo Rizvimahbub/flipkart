@@ -26,7 +26,7 @@ const Navbar = () => {
                 </div>
                 <div className='relative flex items-center login z-10'>
                     <button className=' bg-white text-[#2874F0] font-semibold py-1 px-10'>Login</button>
-                    <div className='absolute top-[24px] left-[-70px] '>
+                    <div className='absolute top-[24px] left-[-70px] hidden'>
                         <ul className=' w-64 shadow-2xl rounded-b-md'>
                             <li className='border-b text-center'><FontAwesomeIcon className='text-white font-extrabold text-4xl mb-[-20px]' icon={faCaretUp} /></li>
                             <li className=' bg-white py-5 px-4 border-b  flex justify-between'><span className='font-semibold text-sm text-[#292929]'>New customer?</span> <span className='font-bold text-sm text-[#2874F0]'>Sign Up</span></li>
