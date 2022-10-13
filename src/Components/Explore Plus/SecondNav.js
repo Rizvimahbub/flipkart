@@ -714,7 +714,7 @@ const SecondNav = () => {
                     </div>
                 </div>
                 <div className=' div-1 grow'>
-                    <p className='text-sm nav-p text-[#212121] h-[41px] flex items-center justify-center font-semibold'>Flights</p>
+                    <p className='text-sm nav-p group-hover:text-[#1e70f3] text-[#212121] h-[41px] flex items-center justify-center font-semibold'>Flights</p>
                 </div>
                 <div className=' div-1 grow'>
                     <p className='text-sm nav-p text-[#212121] h-[41px] flex items-center justify-center font-semibold'>Offer Zone</p>
