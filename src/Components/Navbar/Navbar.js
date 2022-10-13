@@ -14,7 +14,7 @@ const Navbar = ({hover, setHover}) => {
             <div className='flex justify-around mx-auto nav-second'>
                 <div className='min-w-[80px] cursor-pointer'>
                     <p className='heading italic font-bold text-white  mb-[-5px]'>E-kart</p>
-                    <div className='flex '>
+                    <div className='flex hover:underline'>
                         <a className='text-xs mr-[1px] italic font-normal text-white'>Explore <span className='font-medium text-amber-200 mr-[1px]'>Plus</span></a> <img className='w-[10px] h-[10px] mt-[2px]' src='https://i.postimg.cc/GmFXQYt0/flipkart-star.png' />
                     </div>
                 </div>
