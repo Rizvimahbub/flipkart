@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowTrendUp, faBell, faCaretUp, faCartShopping, faChevronDown, faCircleUser, faGift, faHeart, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Navbar.css';
 import Plus from './Navbar Images/flipkart_star-removebg-preview__1_-removebg-preview-removebg-preview-removebg-preview.png';
 import Orders from './Navbar Images/Orders-removebg-preview (2).png';
@@ -10,6 +10,10 @@ import Download from './Navbar Images/Download.png';
 
 const Navbar = () => {
     const [sticky, setSticky]  = useState(false);
+
+    useEffect(() => {
+        
+    })
     return (
         <div className="navbar min-w-[1500px] bg-[#2874F0] z-10">
             <div className='flex justify-around mx-auto min-w-[700px]'>
