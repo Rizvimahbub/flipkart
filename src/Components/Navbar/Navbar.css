@@ -6,11 +6,6 @@
     font-size: 130%;
 }
 
-
-.more:hover .sub-more{
-    display: block; 
-}
-
 #arrow-down{
     transition: 0.1s;
 }
