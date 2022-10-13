@@ -12,7 +12,7 @@ const Navbar = ({hover, setHover}) => {
     return (
         <div className="navbar bg-[#2874F0] z-10">
             <div className='flex justify-around mx-auto nav-second'>
-                <div className='logo'>
+                <div className=''>
                     <p className='heading italic font-bold text-white  mb-[-5px]'>E-kart</p>
                     <div className='flex explore'>
                         <a className='text-xs mr-[1px] italic font-normal text-white'>Explore <span className='font-medium text-amber-200 mr-[1px]'>Plus</span></a> <img className='w-[10px] h-[10px] mt-[2px]' src='https://i.postimg.cc/GmFXQYt0/flipkart-star.png' />
