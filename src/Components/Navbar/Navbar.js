@@ -19,7 +19,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className=" ml-4 mr-[3vw]  flex items-center">
-                    <input type="text" placeholder="Search for products, brands and more" className=" text-sm font-semibold text-black p-[8px]  rounded-l bg-white" />
+                    <input type="text" placeholder="Search for products, brands and more" className="w-[535px] text-sm font-semibold text-black p-[8px]  rounded-l bg-white" />
                     <button className='bg-white py-[6px] px-[13px]'>
                         <FontAwesomeIcon className='text-[#2874F0] font-extrabold' icon={faMagnifyingGlass} />
                     </button>
