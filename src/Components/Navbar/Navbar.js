@@ -14,7 +14,10 @@ const Navbar = () => {
     useEffect(() => {
         const handleScroll = () => {
             setSticky(window.scrollY > 200);
-        }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.addEventListener('scroll', handleScroll);
     })
     return (
         <div className="navbar min-w-[1500px] bg-[#2874F0] z-10">
