@@ -10,7 +10,7 @@ const Explore = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <SecondNav hover={hover}></SecondNav>
+            <SecondNav></SecondNav>
             <ExploreCoin></ExploreCoin>
             <Text></Text>
         </div>
