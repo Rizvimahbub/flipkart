@@ -11,7 +11,7 @@ import Download from './Navbar Images/Download.png';
 const Navbar = ({hover, setHover}) => {
     return (
         <div className="navbar bg-[#2874F0] z-10">
-            <div className='flex justify-around mx-auto '>
+            <div className='flex justify-around mx-auto min-w-[700px]'>
                 <div className='min-w-[80px] cursor-pointer'>
                     <p className='heading italic font-bold text-white  mb-[-5px]'>E-kart</p>
                     <div className='flex hover:underline'>
