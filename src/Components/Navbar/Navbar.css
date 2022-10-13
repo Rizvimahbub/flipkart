@@ -7,11 +7,6 @@
 }
 
 
-.sub-more{
-    display: none; 
-    transition: .2s;
-}
-
 .more:hover .sub-more{
     display: block; 
 }
