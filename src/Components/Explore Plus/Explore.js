@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 import ExploreCoin from './ExploreCoin';
 import SecondNav from './SecondNav';
@@ -12,6 +13,7 @@ const Explore = () => {
             <SecondNav></SecondNav>
             <ExploreCoin></ExploreCoin>
             <Text></Text>
+            <Footer></Footer>
         </div>
     );
 };
