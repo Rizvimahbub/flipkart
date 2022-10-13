@@ -6,10 +6,6 @@
     font-size: 130%;
 }
 
-#arrow-down{
-    transition: 0.1s;
-}
-
 .more:hover #arrow-down{
     transform: rotate(-180deg); 
 }
