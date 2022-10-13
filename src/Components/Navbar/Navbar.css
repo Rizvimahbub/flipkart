@@ -6,10 +6,6 @@
     font-size: 130%;
 }
 
-.more:hover #arrow-down{
-    transform: rotate(-180deg); 
-}
-
 
 .sub-li:hover{
     background-color: #F9F9FA;
