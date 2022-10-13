@@ -39,7 +39,7 @@ const Navbar = ({hover, setHover}) => {
                         </ul>
                     </div>
                 </div>
-                <div className='cart-box flex items-center justify-between ml-10'>
+                <div className=' flex items-center justify-between ml-10'>
                     <p className='text-white font-semibold cursor-pointer'>Become a Seller</p>
                     <div className='relative more z-10'>
                         <p className='text-white font-semibold mr-1'>More <FontAwesomeIcon className='text-white w-[9px]' id='arrow-down' icon={faChevronDown} /></p>
