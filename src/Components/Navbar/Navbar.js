@@ -20,7 +20,7 @@ const Navbar = () => {
         return () => window.addEventListener('scroll', handleScroll);
     })
     return (
-        <div className="navbar min-w-[1500px] bg-[#2874F0] z-10">
+        <div className={`navbar min-w-[1500px] bg-[#2874F0] z-10 ${sticky ? "sticky" : ""}`}>
             <div className='flex justify-around mx-auto min-w-[700px]'>
                 <div className='min-w-[80px] cursor-pointer'>
                     <p className='heading italic font-bold text-white  mb-[-5px]'>E-kart</p>
