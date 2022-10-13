@@ -42,7 +42,7 @@ const Navbar = () => {
                 <div className='min-w-[300px] flex items-center justify-between ml-10'>
                     <p className='text-white font-semibold cursor-pointer'>Become a Seller</p>
                     <div className='relative cursor-pointer z-10 group'>
-                        <p className='text-white font-semibold mr-1'>More <FontAwesomeIcon className='text-white w-[9px]' id='arrow-down' icon={faChevronDown} /></p>
+                        <p className='text-white font-semibold mr-1'>More <FontAwesomeIcon className='text-white w-[9px] duration-100' icon={faChevronDown} /></p>
                         <div className='absolute top-[20px] left-[-96px] hidden duration-200 group-hover:block'>
                             <ul className=' w-[232px] shadow-2xl rounded-b-md'>
                                 <li className='border-b text-center'><FontAwesomeIcon className='text-white font-extrabold text-4xl mb-[-20px]' icon={faCaretUp} /></li>
