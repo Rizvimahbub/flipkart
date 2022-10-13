@@ -13,11 +13,6 @@
 }
 
 
-.login:hover .login-div{
-    display: block; 
-}
-
-
 .sub-more{
     display: none; 
     transition: .2s;
