@@ -9,7 +9,7 @@ const Explore = () => {
     const [hover, setHover] = useState(0);
     return (
         <div>
-            <Navbar hover={hover} setHover={setHover}></Navbar>
+            <Navbar></Navbar>
             <SecondNav hover={hover}></SecondNav>
             <ExploreCoin></ExploreCoin>
             <Text></Text>
