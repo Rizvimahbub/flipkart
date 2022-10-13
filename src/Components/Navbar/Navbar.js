@@ -31,11 +31,11 @@ const Navbar = () => {
                             <li className='border-b text-center'><FontAwesomeIcon className='text-white font-extrabold text-4xl mb-[-20px]' icon={faCaretUp} /></li>
                             <li className=' bg-white py-5 px-4 border-b  flex justify-between'><span className='font-semibold text-sm text-[#292929]'>New customer?</span> <span className='font-bold text-sm text-[#2874F0]'>Sign Up</span></li>
                             <li className='hover:bg-[#F9F9FA] bg-white  py-4 px-4 border-b '><FontAwesomeIcon className='text-[#2874F0] font-extrabold text-sm' icon={faCircleUser} /> <span className='ml-3 text-sm'>My Profile</span></li>
-                            <li className='sub-li bg-white  py-4 px-4 border-b  flex items-center'><img className='w-[15px] h-[15px]' src={Plus}></img><span className='ml-4 text-sm'>E-kart Plus Zone</span></li>
-                            <li className='sub-li bg-white  py-4 px-4 border-b  flex items-center'><img className='w-5' src={Orders} /> <span className='ml-3 text-sm'>Orders</span></li>
-                            <li className='sub-li bg-white  py-4 px-4 border-b '><FontAwesomeIcon className='text-[#2874F0] font-extrabold' icon={faHeart} /> <span className='ml-3 text-sm'>Wishlist</span></li>
-                            <li className='sub-li bg-white  py-4 px-4 border-b  flex items-center'><img className='w-4 h-3' src={Rewards} /> <span className='ml-4 text-sm'>Rewards</span> </li>
-                            <li className='sub-li bg-white  py-4 px-4 border-b '><FontAwesomeIcon className='text-[#2874F0] font-extrabold' icon={faGift} /> <span className='ml-3 text-sm'>Gift Cards</span></li>
+                            <li className='hover:bg-[#F9F9FA] bg-white  py-4 px-4 border-b  flex items-center'><img className='w-[15px] h-[15px]' src={Plus}></img><span className='ml-4 text-sm'>E-kart Plus Zone</span></li>
+                            <li className='hover:bg-[#F9F9FA] bg-white  py-4 px-4 border-b  flex items-center'><img className='w-5' src={Orders} /> <span className='ml-3 text-sm'>Orders</span></li>
+                            <li className='hover:bg-[#F9F9FA] bg-white  py-4 px-4 border-b '><FontAwesomeIcon className='text-[#2874F0] font-extrabold' icon={faHeart} /> <span className='ml-3 text-sm'>Wishlist</span></li>
+                            <li className='hover:bg-[#F9F9FA] bg-white  py-4 px-4 border-b  flex items-center'><img className='w-4 h-3' src={Rewards} /> <span className='ml-4 text-sm'>Rewards</span> </li>
+                            <li className='hover:bg-[#F9F9FA] bg-white  py-4 px-4 border-b '><FontAwesomeIcon className='text-[#2874F0] font-extrabold' icon={faGift} /> <span className='ml-3 text-sm'>Gift Cards</span></li>
                         </ul>
                     </div>
                 </div>
@@ -46,10 +46,10 @@ const Navbar = () => {
                         <div className='absolute top-[20px] left-[-96px] hidden duration-200 group-hover:block'>
                             <ul className=' w-[232px] shadow-2xl rounded-b-md'>
                                 <li className='border-b text-center'><FontAwesomeIcon className='text-white font-extrabold text-4xl mb-[-20px]' icon={faCaretUp} /></li>
-                                <li className='sub-li bg-white  py-4 px-3 border-b flex items-center'><FontAwesomeIcon className='text-[#2874F0] font-extrabold text-sm' icon={faBell} /> <span className='ml-3 text-sm'>Notification Preferences</span></li>
-                                <li className='sub-li bg-white  py-4 px-3 border-b  flex items-center'><img className='w-3 border]' src={Message}></img><span className='ml-4 text-sm'>24x7 Customer Care</span></li>
-                                <li className='sub-li bg-white  py-4 px-3 border-b '><FontAwesomeIcon className='text-[#2874F0] text-sm font-extrabold' icon={faArrowTrendUp} /> <span className='ml-3 text-sm'>Advertise</span></li>
-                                <li className='sub-li bg-white  py-4 px-3 border-b  flex items-center'><img className='w-3.5' src={Download} /> <span className='ml-4 text-sm'>Rewards</span> </li>
+                                <li className='hover:bg-[#F9F9FA] bg-white  py-4 px-3 border-b flex items-center'><FontAwesomeIcon className='text-[#2874F0] font-extrabold text-sm' icon={faBell} /> <span className='ml-3 text-sm'>Notification Preferences</span></li>
+                                <li className='hover:bg-[#F9F9FA] bg-white  py-4 px-3 border-b  flex items-center'><img className='w-3 border]' src={Message}></img><span className='ml-4 text-sm'>24x7 Customer Care</span></li>
+                                <li className='hover:bg-[#F9F9FA] bg-white  py-4 px-3 border-b '><FontAwesomeIcon className='text-[#2874F0] text-sm font-extrabold' icon={faArrowTrendUp} /> <span className='ml-3 text-sm'>Advertise</span></li>
+                                <li className='hover:bg-[#F9F9FA] bg-white  py-4 px-3 border-b  flex items-center'><img className='w-3.5' src={Download} /> <span className='ml-4 text-sm'>Rewards</span> </li>
                             </ul>
                         </div>
                     </div>
