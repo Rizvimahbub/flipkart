@@ -12,7 +12,9 @@ const Navbar = () => {
     const [sticky, setSticky]  = useState(false);
 
     useEffect(() => {
-        
+        const handleScroll = () => {
+            setSticky(window.scrollY > 200);
+        }
     })
     return (
         <div className="navbar min-w-[1500px] bg-[#2874F0] z-10">
