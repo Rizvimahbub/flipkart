@@ -8,9 +8,9 @@ const SecondNav = () => {
     return (
         <div className='second-nav-container pr-12 shadow-black h-[41px] min-w-[1500px] border-b border-[#D1D3D5]'>
             <div className=' cursor-pointer second-sub-nav max-w-[1248px] flex items-center w-5/6 mx-auto h-[40px]'>
-                <div className='div-1 grow relative'>
+                <div className='div-1 grow relative group'>
                     <p className='text-sm nav-p text-[#1f1f1f] h-[41px] flex items-center justify-center font-semibold'>Electronics <FontAwesomeIcon className='second-nav-text-icon duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
-                    <div className='absolute top-[40px] w-[1250px] hidden shadow shadow-gray-400 rounded-sm sub-nav-div flex'>
+                    <div className='absolute top-[40px] w-[1250px] hidden group-hover:flex shadow shadow-gray-400 rounded-sm sub-nav-div flex'>
                         <div className='bg-white rounded-l-sm grow w-full'>
                             <p className='flex font-medium items-center text-[13px] px-5 py-2'>Mobiles <img className='w-1.5 h-1.5 ml-2' src={Play} /></p>
                             <p className='sub-p text-[#7d7d7d] px-5 py-1.5  text-xs font-medium'>Mi</p>
