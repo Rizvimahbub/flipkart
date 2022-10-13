@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='bg-[#172337]'>
             <div>
                 <div>
                     <div>
