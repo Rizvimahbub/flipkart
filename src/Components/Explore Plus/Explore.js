@@ -6,7 +6,7 @@ import SecondNav from './SecondNav';
 import Text from './Text';
 
 const Explore = () => {
-    const [hover, setHover] = useState(0);
+    
     return (
         <div>
             <Navbar></Navbar>
