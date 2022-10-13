@@ -107,7 +107,7 @@ const SecondNav = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' div-1 grow relative group'>
+                <div className='grow relative group'>
                     <p className='text-sm nav-p group-hover:text-[#1e70f3] text-[#212121] h-[41px] flex items-center justify-center font-semibold'>TVs & Appliances <FontAwesomeIcon className='second-nav-text-icon group-hover:text-[#1e70f3] group-hover:rotate-[-180deg] duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
                     <div className='absolute top-[40px] w-[1250px] hidden shadow shadow-gray-400 rounded-sm sub-nav-div top-[40px] left-[-132px] flex group-hover:flex'>
                         <div className=' grow bg-white rounded-l-sm grow w-full'>
