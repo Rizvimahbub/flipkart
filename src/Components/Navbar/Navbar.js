@@ -8,7 +8,7 @@ import Rewards from './Navbar Images/Rewards-removebg-preview.png';
 import Message from './Navbar Images/Message-question.png';
 import Download from './Navbar Images/Download.png';
 
-const Navbar = ({hover, setHover}) => {
+const Navbar = () => {
     return (
         <div className="navbar min-w-[1500px] bg-[#2874F0] z-10">
             <div className='flex justify-around mx-auto min-w-[700px]'>
