@@ -7,6 +7,7 @@ import Orders from './Navbar Images/Orders-removebg-preview (2).png';
 import Rewards from './Navbar Images/Rewards-removebg-preview.png';
 import Message from './Navbar Images/Message-question.png';
 import Download from './Navbar Images/Download.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [sticky, setSticky]  = useState(false);
@@ -25,7 +26,7 @@ const Navbar = () => {
                 <div className='min-w-[80px] cursor-pointer'>
                     <p className='heading italic font-bold text-white  mb-[-5px]'>E-kart</p>
                     <div className='flex hover:underline'>
-                        <a className='text-xs mr-[1px] italic font-normal text-white' >Explore <span className='font-medium text-amber-200 mr-[1px]'>Plus</span></a> <img className='w-[10px] h-[10px] mt-[2px]' src='https://i.postimg.cc/GmFXQYt0/flipkart-star.png' />
+                        <a className='text-xs mr-[1px] italic font-normal text-white' ><Link to="/explore">Explore <span className='font-medium text-amber-200 mr-[1px]'>Plus</span></Link></a> <img className='w-[10px] h-[10px] mt-[2px]' src='https://i.postimg.cc/GmFXQYt0/flipkart-star.png' />
                     </div>
                 </div>
                 <div className=" ml-4 mr-[3vw]  flex items-center">
