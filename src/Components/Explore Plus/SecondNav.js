@@ -717,7 +717,7 @@ const SecondNav = () => {
                     <p className='text-sm group-hover:text-[#1e70f3] text-[#212121] h-[41px] flex items-center justify-center font-[500]'>Flights</p>
                 </div>
                 <div className='grow group'>
-                    <p className='text-sm group-hover:text-[#1e70f3] text-[#212121] h-[41px] flex items-center justify-center font-[500]'>Offer Zone</p>
+                    <p className=' text-sm group-hover:text-[#1e70f3] text-[#212121] h-[41px] flex items-center justify-center font-[500]'>Offer Zone</p>
                 </div>
             </div>
         </div>
