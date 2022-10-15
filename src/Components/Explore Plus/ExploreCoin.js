@@ -21,7 +21,7 @@ import Img18 from './Images/Flipkart image 15.png';
 
 const ExploreCoin = () => {
     return (
-        <div className='pt-2 pb-10 bg-[#F1F3F6] min-w-[1500px]'>
+        <div className='pt-2 pb-10 bg-[#F1F3F6] min-w-[1200px]'>
             <div className='w-5/12 mx-auto'><a href='https://www.flipkart.com/supercoin'><img className='object-cover w-full' src={Img1} /></a></div>
             <div className='w-5/12 mx-auto'><a href='https://www.flipkart.com/plus/coins-activity'><img className='object-cover w-full' src={Img2} /></a></div>
             <div className='w-5/12 mx-auto'><img className='object-cover w-full' src={Img3} /></div>

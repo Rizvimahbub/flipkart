@@ -12,7 +12,7 @@ const Footer = () => {
     const date = new Date();
     const year = date.getFullYear();
     return (
-        <div className='bg-[#172337] min-w-[1500px]'>
+        <div className='bg-[#172337] min-w-[1200px]'>
             <div className='border-b border-[#454D5E]'>
                 <div className='flex pt-[40px] ml-[65px] w-[90%] pr-12 pb-10'>
                     <div className='grow-[5]'>

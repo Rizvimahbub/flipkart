@@ -2,7 +2,7 @@ import React from 'react';
 
 const Text = () => {
     return (
-        <div className='bg-white px-[25px] min-w-[1500px]'>
+        <div className='bg-white px-[25px] min-w-[1200px]'>
             <div className='pt-8 pb-4'>
                 <h3 className='h3 text-[#878787] text-[14px] font-semibold mb-[10px]'>Get Flipkart Plus Membership Online and Enjoy Benefits for the Plus Life</h3>
                 <p className='p1 text-[#878787] text-[11px]'>To democratise access and broaden diversity in e-commerce, Flipkart never stops adding new features. With this goal in mind, the reward programme Flipkart Plus is designed to improve client relationships and provide them with additional benefits. Flipkart Plus membership is an earned loyalty programme created to satisfy a wide range of Flipkart customers. Hence, there is no Flipkart Plus membership price, however, you can use SuperCoins to access its advantages. Flipkart Plus membership benefits include getting free and quick delivery, as well as access to exclusive marketplace launch previews. Getting priority customer service, acquiring exclusive Flipkart Pay Later choices, and receiving selected rewards from ecosystem partners across travel, OTT, lifestyle, health and fitness, are among the additional advantages. This means that you can (Flipkart) explore plus and get engaged in the Plus campaign and get exclusive deals and benefits. So, if you want to become a member of Flipkart’s prime membership, all you have to do is shop more and earn SuperCoins without having to pay Flipkart membership prices. </p>
