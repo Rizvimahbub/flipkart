@@ -6,7 +6,7 @@ import Play from './Images/Play.png';
 
 const SecondNav = () => {
     return (
-        <div className=' pr-12 shadow-black  h-[41px] min-w-[1200px] border-b border-[#D1D3D5]'>
+        <div className=' pr-12 shadow-black h-[41px] min-w-[1200px] border-b border-[#D1D3D5]'>
             <div className='relative cursor-pointer max-w-[1250px] flex items-center w-5/6 mx-auto h-[40px]'>
                 <div className='grow group'>
                     <p className='text-sm group-hover:text-[#1e70f3] text-[#212121] h-[41px] flex items-center justify-center font-[500]'>Electronics <FontAwesomeIcon className='group-hover:text-[#1e70f3] group-hover:rotate-[-180deg] duration-100 text-[#b2b2b2] ml-1 w-[9px]' icon={faChevronDown} /></p>
